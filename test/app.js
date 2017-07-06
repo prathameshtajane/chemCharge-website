@@ -1,8 +1,10 @@
 module.exports = function(app)
 {
+    /*
     app.get("/api/test", findAllMessages);
     app.post("/api/test", createMessage);
     app.delete("/api/test/:id", deleteMessage);
+
 
     var connectionString = 'mongodb://127.0.0.1:27017/test'; // for local
     if(process.env.MLAB_USERNAME_WEBDEV) { // check if running remotely
@@ -12,8 +14,10 @@ module.exports = function(app)
         connectionString += '@ds157268.mlab.com:57268/heroku_nh37fqq4'; // user yours
     }
 
-    var mongoose = require("mongoose");
-    mongoose.connect(connectionString);
+     var mongoose = require("mongoose");
+     mongoose.connect(connectionString);
+
+
 
     var TestSchema = mongoose.Schema({
         message: String
@@ -59,4 +63,5 @@ module.exports = function(app)
                 }
             );
     }
+     */
 };
